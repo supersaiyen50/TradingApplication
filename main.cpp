@@ -265,7 +265,7 @@ int main()
 		case 3:
 			cout << "Enter amount to withdrawn : ";
 			cin >> amount;
-			person.Withdraw(amount);
+			ans = person.Withdraw(amount);
 
 			if (ans)
 				cout << "Successfully withdrawn Amount"
@@ -273,7 +273,7 @@ int main()
 			else
 				cout << "Not Enough Balance\n";
 
-			break;
+break;
 
 		case 4:
 			person.History();
